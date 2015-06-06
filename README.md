@@ -34,7 +34,7 @@ Now you can start sprinkling around `<fill-image></fill-image>` tags. If no serv
 
 ### Contribution
 
-Feel free to add a new service or a PR. 
+Feel free to add a new service or a PR for existing code. 
 
 * Download/clone repo
 * `cd fill-image` Run `npm install` 
