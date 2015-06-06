@@ -15,7 +15,7 @@
 
 ### Setup
 
-Add a reference to `fill-image.js` file either by downloading the source file from [here](dist/fill-image.min.js) or you by running
+Add a reference to `fill-image.js` file either by downloading the source file from [here](https://github.com/arvindr21/fill-image/blob/master/dist/fill-image.min.js) or you by running
 
 ```bash
  $ bower install fill-image --save
@@ -29,12 +29,12 @@ angular.module('myApp', ['FillImage']);
 Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service is provided, a random service will be used.
 
 #### Note
-* Docs for each service can be accessed from the menu on the left!
-* Not all services supports all properties!
+
+Not all services supports all properties!
 
 ### Contribution
 
-Feel free to add a new service or a PR for existing code. 
+Feel free to add a new service or a PR to the existing code. 
 
 * Download/clone repo
 * `cd fill-image` Run `npm install` 
@@ -49,4 +49,4 @@ Docs are located on `gh-pages` branch.
 * [ ] Clean up the code
 * [ ] Modularize the Rules engine
 
-#### [The Jackal of Javascript](http://thejackalofjavascript.com/)
+[The Jackal of Javascript](http://thejackalofjavascript.com/)
