@@ -28,25 +28,4 @@ angular.module('myApp', ['FillImage']);
 
 Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service is provided, a random service will be used.
 
-#### Note
-
-Not all services supports all properties!
-
-### Contribution
-
-Feel free to add a new service or a PR to the existing code. 
-
-* Download/clone repo
-* `cd fill-image` Run `npm install` 
-* To start developing `gulp watch`
-
-Docs are located on `gh-pages` branch.
-
-* Switch branch `git checkout -b gh-pages`
-* Update  the docs & submit PR
-
-### Todos
-* [ ] Clean up the code
-* [ ] Modularize the Rules engine
-
 [The Jackal of Javascript](http://thejackalofjavascript.com/)
