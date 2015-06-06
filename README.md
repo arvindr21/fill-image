@@ -15,7 +15,7 @@
 
 ### Setup
 
-Add a reference to `fill-image.js` file either by downloading the source file from [here](dist/fill-image.min.js) or you by running
+Add a reference to `fill-image.js` file either by downloading the source file from [here](https://github.com/arvindr21/fill-image/blob/master/dist/fill-image.min.js) or by running
 
 ```bash
  $ bower install fill-image --save
@@ -26,15 +26,10 @@ Then add `FillImage` module as a dependency to your awesome app
 angular.module('myApp', ['FillImage']);
 ```
 
-Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service is provided, a random service will be used.
-
-#### Note
-* Docs for each service can be accessed from the menu on the left!
-* Not all services supports all properties!
+Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service attribute is provided, a random service from the above list will be used.
 
 ### Contribution
-
-Feel free to add a new service or a PR for existing code. 
+Feel free to add a new service or a PR to the existing code. 
 
 * Download/clone repo
 * `cd fill-image` Run `npm install` 
@@ -47,6 +42,13 @@ Docs are located on `gh-pages` branch.
 
 ### Todos
 * [ ] Clean up the code
-* [ ] Modularize the Rules engine
+* [ ] "Real" Rules engine
 
-#### [The Jackal of Javascript](http://thejackalofjavascript.com/)
+#### Inspiration
+I started this directive to integrate all image place holder services and use a single directive to access all of them, depending on the "mood" of the app. As I started developing the directive, the complexity of structuring the code became complex, As each service has its own set of options/structure. 
+
+In v`0.1.0`, I tried to implement a rules engine (_not really a rules engine, but a few utility methods that tell about the behavior of a service_), which generates the output conditionally, depending on the service it is processing. 
+
+The next step is to come up with a more cleaner solution, which is very close to an actual rules engine. This "Rules Engine" takes in a service and a rule set and spits out the URL of the image tag. This kind of architecture may be helpful for other services, where the code base needs to interact with multiple data response in multiple formats & process them in the same way.
+
+[The Jackal of Javascript](http://thejackalofjavascript.com/)
