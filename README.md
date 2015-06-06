@@ -15,7 +15,7 @@
 
 ### Setup
 
-Add a reference to `fill-image.js` file either by downloading the source file from [here](https://github.com/arvindr21/fill-image/blob/master/dist/fill-image.min.js) or you by running
+Add a reference to `fill-image.js` file either by downloading the source file from [here](https://github.com/arvindr21/fill-image/blob/master/dist/fill-image.min.js) or by running
 
 ```bash
  $ bower install fill-image --save
@@ -26,6 +26,6 @@ Then add `FillImage` module as a dependency to your awesome app
 angular.module('myApp', ['FillImage']);
 ```
 
-Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service is provided, a random service will be used.
+Now you can start sprinkling around `<fill-image></fill-image>` tags. If no service attribute is provided, a random service from the above list will be used.
 
 [The Jackal of Javascript](http://thejackalofjavascript.com/)
