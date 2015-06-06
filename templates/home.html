@@ -1,0 +1,131 @@
+<h3 class="main-section__title">Setup</h3>
+<p class="main-section__intro">
+    This directive generates place holder images for your prototype app. This directive is designed to be used with dynamic placeholder services like
+    <div flex-container="row" class="m++ p++" flex-gutter="24" flex-wrap>
+        <div flex-item="6">
+            <ul class="list mt++">
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/dummyimage">dummyimage.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/lorempixel">lorempixel.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/dummyimage">placeimg.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placecage">placecage.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/stevensegallery">stevensegallery.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placebear">placebear.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placesheen">placesheen.com</a>
+                    </div>
+                </li>
+                <!-- <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                       <a href="#/pipsum">pipsum.com</a>
+                    </div>
+                </li> -->
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/fakeimg">fakeimg.pl</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div flex-item="6">
+            <ul class="list mt++">
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placeholdit">placehold.it</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/fpoimg">fpoimg.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/fillmurray">fillmurray.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placekitten">placekitten.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/nicenicejpg">nicenicejpg.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/baconmockup">baconmockup.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/placeskull">placeskull.com</a>
+                    </div>
+                </li>
+                <li class="list-row list-row--has-separator">
+                    <div class="list-row__content">
+                        <a href="#/beerhold">beerhold.it</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</p>
+<div class="main-section__content">
+    <div class="paragraph">
+        <h3 class="main-section__subtitle">Setup</h3>
+        <hr>
+        <p>Add a reference to <code>fill-image.js</code> file either by downloading the source file from <a href="">here</a> or you by running</p>
+        <code class="full">
+            bower install fill-image --save
+            </code>
+        <p>Then add <code>FillImage</code> module as a dependency to your awesome app</p>
+        <code class="full">
+                angular.module('myApp', ['FillImage']);
+            </code>
+        <br>
+        <p>Now you can start sprinkling around <code>&lt;fill-image&gt;&lt;/fill-image&gt;</code> tags. If no service is provided, a random service will be used.</p>
+        <hr>
+        <h3 class="text-center">
+            Docs for each service can be accessed from the menu on the left!
+        </h3>
+        <code class="full">* Not all services supports all properties!</code>
+        <div class="text-center">
+            <fill-image service="lorempixel"></fill-image>
+            <fill-image service="beerholdit" effect="grayscale"></fill-image>
+           <fill-image service="placecage" effect="gif"></fill-image>
+            <fill-image service="placeskull"></fill-image>
+            <fill-image service="fakeimgpl"></fill-image>
+            <fill-image service="pipsum"></fill-image>
+            <fill-image service="beerholdit"></fill-image>
+            <fill-image service="pipsum"></fill-image>
+            <fill-image service="placeimg"></fill-image>
+        </div>
+    </div>
+</div>

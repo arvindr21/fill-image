@@ -1,0 +1,35 @@
+{
+  "name": "fill-image",
+  "authors": [
+    "Arvind Ravulavaru <arvind.ravulavaru@gmail.com>"
+  ],
+  "description": "An Angular directive that generate placeholder images from existing services like placehold.it, dummyimage.com, etc.",
+  "main": "dist/fill-image.min.js",
+  "keywords": [
+    "angular",
+    "directive",
+    "placeholder",
+    "dummy",
+    "images",
+    "faker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/arvindr21/fill-image",
+  "_release": "6bfc53cbf5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6bfc53cbf500c52563b4a3927f6ed39efc05b2d2"
+  },
+  "_source": "git://github.com/arvindr21/fill-image.git",
+  "_target": "*",
+  "_originalSource": "fill-image",
+  "_direct": true
+}

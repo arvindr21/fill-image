@@ -1,0 +1,64 @@
+<div>
+    <div class="sidebar-filter ng-scope" ng-class="{ 'sidebar-filter--is-shown': isSidebarShown() }" ng-click="toggleSidebar()"></div>
+    <div class="sidebar ng-scope" ng-class="{ 'sidebar--is-shown': isSidebarShown() }">
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#/" ng-class="{ active: isActive('/')}" class="sidebar-menu__link" ng-click="toggleSidebar()">Setup</a>
+                </li>
+                <li>
+                    <a href="#baconmockup" ng-class="{ active: isActive('/baconmockup')}" class="sidebar-menu__link" ng-click="toggleSidebar()">baconmockup.com</a>
+                </li>
+                <li>
+                    <a href="#beerholdit" ng-class="{ active: isActive('/beerholdit')}" class="sidebar-menu__link" ng-click="toggleSidebar()">beerhold.it</a>
+                </li>
+                <li>
+                    <a href="#/dummyimage" ng-class="{ active: isActive('/dummyimage')}" class="sidebar-menu__link" ng-click="toggleSidebar()">dummyimage.com</a>
+                </li>
+                <li>
+                    <a href="#fakeimgpl" ng-class="{ active: isActive('/fakeimgpl')}" class="sidebar-menu__link" ng-click="toggleSidebar()">fakeimg.pl</a>
+                </li>
+                <li>
+                    <a href="#fillmurray" ng-class="{ active: isActive('/fillmurray')}" class="sidebar-menu__link" ng-click="toggleSidebar()">fillmurray.com</a>
+                </li>
+                <li>
+                    <a href="#fpoimg" ng-class="{ active: isActive('/fpoimg')}" class="sidebar-menu__link" ng-click="toggleSidebar()">fpoimg.com</a>
+                </li>
+                <li>
+                    <a href="#lorempixel" ng-class="{ active: isActive('/lorempixel')}" class="sidebar-menu__link" ng-click="toggleSidebar()">lorempixel.com</a>
+                </li>
+                <li>
+                    <a href="#nicenicejpg" ng-class="{ active: isActive('/nicenicejpg')}" class="sidebar-menu__link" ng-click="toggleSidebar()">nicenicejpg.com</a>
+                </li>
+                <li>
+                    <a href="#pipsum" ng-class="{ active: isActive('/pipsum')}" class="sidebar-menu__link" ng-click="toggleSidebar()">pipsum.com</a>
+                </li>
+                <li>
+                    <a href="#placebear" ng-class="{ active: isActive('/placebear')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placebear.com</a>
+                </li>
+                <li>
+                    <a href="#placecage" ng-class="{ active: isActive('/placecage')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placecage.com</a>
+                </li>
+                <li>
+                    <a href="#placeholdit" ng-class="{ active: isActive('/placeholdit')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placehold.it</a>
+                </li>
+                <li>
+                    <a href="#placeimg" ng-class="{ active: isActive('/placeimg')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placeimg.com</a>
+                </li>
+                <li>
+                    <a href="#placekitten" ng-class="{ active: isActive('/placekitten')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placekitten.com</a>
+                </li>
+                <li>
+                    <a href="#placesheen" ng-class="{ active: isActive('/placesheen')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placesheen.com</a>
+                </li>
+                <li>
+                    <a href="#placeskull" ng-class="{ active: isActive('/placeskull')}" class="sidebar-menu__link" ng-click="toggleSidebar()">placeskull.com</a>
+                </li>
+                <li>
+                    <a href="#stevensegallery" ng-class="{ active: isActive('/stevensegallery')}" class="sidebar-menu__link" ng-click="toggleSidebar()">stevensegallery.com</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="main-section" ng-view></div>
